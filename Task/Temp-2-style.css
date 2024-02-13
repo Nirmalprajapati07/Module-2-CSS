@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 body{
     display: flex;
     flex-direction: column;
-    /* gap: 50px; */
     background-color: #e9e7e7;
 }
 .main-1{

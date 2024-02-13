@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo-1 img{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+}
+.head-1{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 42%;
+    top: 8%;
+    left: 32%;
+}
+.head-1 nav{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #54524f;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 17px;
+}
+.btn-1-1{
+    margin-top: -3%;
+    left: 126%;
+    width: 183px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #7f7770;
+    opacity: 0.471;
+    position: absolute;
+}
+.Search-1{
+    position: absolute;
+    color: #54524f;
+    font-size: 35px;
+    width: 30px;
+    height: 30px;
+    left: 146%;
+    margin-top: -2%;    
+}
+.text-1 h1{
+    color: #deb37e;
+    font-weight: 800;
+    font-family: "Open Sans";
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
+    font-size: 73px;
+    position: absolute;
+    top: 21%;
+    left: 5%;
+}
+.text-1 h2{
+    left: -1%;
+    top: 45%;
+    height: 65px;
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: #54524f;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 469px;
+    position: absolute;
+}
+.btn-1 button{
+    left: 5%;
+    top: 54%;
+    color: #776c64;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    width: 179px;
+    height: 38px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    opacity: 0.902;
+}
+.text-1 p{
+    left: 5%;
+    top: 65%;
+    position: absolute;
+    height: 130px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #54524f;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+    width: 452px;
+}
+.Main-2{
+    background-color: white;
+    width: 100%;
+    height: 1309px;
+    position: relative;
+    margin-top: -7%;
+}
+.text-2{
+    position: absolute;
+    left: -7%;
+    top: 29%;
+}
+.text-2 h1{
+    position: absolute;
+    left: 40%;
+    margin-top: -9%;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Open Sans";
+    font-size: 91px;
+}
+.text-2 h2{
+    height: 210px;
+    font-size: 36px;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 1788px;
+}
+
+.Main-2-image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-2 button{
+    left: 39%;
+    letter-spacing: 5px;
+    top: 107%;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #7f7770;
+    font-size: 23px;
+    position: absolute;
+}
+.Main-3{
+    width: 100%;
+    height: 1200px;
+    background-color: #7f7770;
+    position: relative;
+    margin-top: 6%;
+}
+.Main-3-img img{
+    position: absolute;
+    top: 18%;
+    left: 5%;    
+}
+.text-3{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 13%;
+}
+.text-3 h3{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    font-size: 58px;
+}
+.text-3 p{
+    height: 175px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    width: 640px;
+    position: absolute;
+    top: 137%;
+}
+.btn-3 button{
+    left: 62%;
+    top: 49%;
+    letter-spacing: 6px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    width: 313px;
+    height: 69px;
+    border-radius: 37px;
+    background-color: #e2a355;
+    font-size: 27px;
+    position: absolute;
+}
+.Main-4{
+    background-color: #deb37e;
+    width: 100%;
+    height: 900px;
+}
+.Main-4-img{
+    position: absolute;
+    left: 49%;
+    top: 461%;
+}
+.box-4-1 {
+    position: absolute;
+}
+.box-4-1 h3{
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.box-4-1 p{
+    margin-left: 10%;
+    width: 646px;
+    height: 175px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-top: 10%;
+}
+.btn-4 button{
+    margin-left: 10%;
+    font-size: 23px;
+letter-spacing: 5px;
+line-height: 21px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+width: 334px;
+height: 75px;
+border-radius: 37px;
+background-color: #e2a355;
+}
+.Main-5 h3{
+    margin-left: 68%;
+    margin-top: -41%;
+    font-size: 76px;
+color: #deb37e;
+font-weight: 800;
+font-style: italic;
+font-family: "Open Sans";
+text-align: right;
+filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
+position: absolute;
+}
+.text-6 h3{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 35%;
+    color: white;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 75px;
+}
+.text-6 p{
+    position: absolute;
+    margin-top: -44%;
+    margin-left: -10%;
+    height: 210px;
+    font-size: 30px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 1811px;
+}
+.Footer .Box-1 h3{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: system-ui;
+    position: relative;
+    margin-top: -4%;
+
+} 
+.Footer .Box-1 p{
+    position: absolute;
+    margin-top: 2%;
+    width: 958px;
+    height: 244px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.Footer .Box-1{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 3%;
+} 
+.Footer .Box-2 .section{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: -52%;
+    margin-left: 50%;
+    font-size: 28px;
+    margin-top: -64%;
+    font-family: system-ui;
+}
+.Footer{
+    position: relative;
+    margin-top: 37%;
+}
+.icons{
+    position: relative;
+    left: 3%;
+    margin-top: -3%;
+
+}
+.text-6 h4{
+    margin-left: 24%;
+    margin-top: -26%;
+    position: absolute;
+    opacity: 0.678;
+    font-size: 25px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}

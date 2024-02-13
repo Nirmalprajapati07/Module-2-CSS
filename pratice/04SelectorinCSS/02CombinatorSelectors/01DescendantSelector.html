@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+    <style> 
+        /*CSS properties applied on all  
+        direct or nested 'p' elements */ 
+        .main-div p { 
+            background-color: rgb(188, 238, 189); 
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1 style="color:green"> 
+        GeeksforGeeks 
+    </h1> 
+    <h2>Descendant Selector</h2> 
+  
+    <!-- Outer Para -->
+    <p>GFG First Paragraph</p> 
+  
+    <!-- Outer Div with class 'main-div' Starts -->
+    <div class="main-div"> 
+        <p>GFG Second Paragraph</p> 
+        <p>GFG Third Paragraph</p> 
+        <p>GFG Fourth Paragraph</p> 
+  
+        <!-- Inner nested Div with class  
+            'sub-div' starts  -->
+        <div class="sub-div"> 
+            <p>GFG Fifth Paragraph</p> 
+        </div> 
+        <!-- Inner nested div ends -->
+    </div> 
+    <!-- Outer Div ends -->
+  
+    <!-- Outer Para -->
+    <p>GFG Sixth Paragraph</p> 
+</body>
+</html>

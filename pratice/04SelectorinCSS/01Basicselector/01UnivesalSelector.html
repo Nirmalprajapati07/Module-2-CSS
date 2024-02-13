@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Selector</title>
+
+
+    <!-- Internal CSS applied here  -->
+
+    <style>
+        * {
+            background-color: gray;
+        }
+         
+        * p {
+            background-color: green;
+        }
+         
+        * p span {
+            background-color: yellow;
+        }
+         
+        div * h3 {
+            background-color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Universal Selector (*)</h1>
+    <center>
+      <h1 style="color:green">
+    </h1>
+
+      <div>
+           
+<p>
+              div->p
+              <span> div->p->span </span>
+          </p>
+
+          <span>
+  <h3> div->span->h3</h3>
+</span>
+      </div>
+
+       
+<p>A computer science portal.</p>
+
+  </center>
+  </body>
+</html>

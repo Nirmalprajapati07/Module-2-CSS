@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+.main{
+    position: relative;
+}
+.main-1 {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    
+}
+.box-1 {
+    width: 39vw;
+    height: 11vh;
+    padding-top: 11px;
+}
+.box-2{
+    display: flex;
+    width: 60%;
+    left: -52%;
+    position: relative;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.Icon {
+
+    height: 10vh;
+    width: 40%;
+    position: relative;
+    left: 24%;
+}
+
+.box-3 {
+
+    height: 7vh;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    justify-content: space-evenly;
+    left: 27%;
+    position: relative;
+}
+
+.box-4 {
+
+    height: 7vh;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: #29303e;
+    justify-content: space-evenly;
+    left: 29%;
+    position: relative;
+}
+
+.box-5 {
+
+    height: 7vh;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: #29303e;
+    left: 31%;
+    position: relative;
+
+}
+.icon{
+    padding-top: 10px;
+}
+
+
+.searchbar {
+    width: 100%;
+    height: 69%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 50px;
+    border: none;
+    background-color: #f2f3f4;
+    border-radius: 3px;
+
+}
+
+.icon-1 {
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+    padding-left: 10px;
+}
+
+
+.main-3 {
+    display: flex;
+
+}
+
+.container-1 {
+    width: 15vw;
+}
+
+.container-2 {
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+
+.box-img {
+    width: 100%;
+    height: 51vh;
+    padding-bottom: 10px;
+}
+
+.shirt {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    height: 30%;
+}
+
+.logo {
+    width: 36%;
+    position: relative;
+    top: -29%;
+    left: -1%;
+}
+
+.description-1 {
+    padding-bottom: 4px;
+}
+
+.description-1 {
+    padding-bottom: 4px;
+}
+
+.description-2 {
+    padding-bottom: 4px;
+}
+
+.Rs {
+    text-decoration: line-through;
+    color: grey;
+    font-size: smaller;
+}
+
+.discount {
+    color: #fd913c;
+    font-size: smaller;
+}
+.box-13{
+    display: none;
+    position: fixed;
+    top: 130px;
+    font-size: large;
+    right: 0px;
+}
+.check-1{
+     background-color: black;
+     color: white;
+
+}
+.PRICE{
+    position: relative;
+    top: 6%;
+}
+.BRAND{
+    position: relative;
+    top: 3%;
+}

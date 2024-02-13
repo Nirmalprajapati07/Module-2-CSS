@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex in CSS</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            background-color: blue;
+        }
+        h1{
+            text-align: center;
+            color: aqua;
+        }
+        .Container{
+            border: 2px solid black;
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .box1{
+            width: 400px;
+            height: 120px;
+            background-color: rgb(3, 194, 241);
+            color: aqua;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .box2{
+            width: 90%;
+            height: 120px;
+            background-color: rgb(3, 194, 241);
+            color: aqua;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+        }
+        .box3{
+            width: 90%;
+            height: 120px;
+            background-color:  rgb(3, 194, 241);
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+        }
+        .b1row1{
+            width: 50%;
+            height: 40px;
+            border: black;
+            background-color: blue;
+        }
+        .b1row2{
+            width: 89%;
+            height: 44px;
+            border: black;
+            background-color: blue;
+        }
+        .b2row1{
+            width: 49%;
+            height: 110px;
+            border: 2px solid black;
+            text-align: center;
+            background-color: rgb(99, 194, 173);
+        }
+        .b2row2{
+            width: 49%;
+            height: 110px;
+            border: 2px solid black;
+            text-align: center;
+            background-color: rgb(99, 194, 173);
+        }
+        .b3row1{
+            width: 24%;
+            height: 110px;
+            border: black;
+        }
+        .b3row1{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+            /* background:url(../Material_images/loading.png) center; */
+        }
+        .b3row2{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+            text-align: center;
+            background-color: rgb(109, 134, 168);
+        }
+        .b3row3{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+            /* background:url(../Material_images/bird.png) top; */
+        }
+        .b3row4{
+            width: 24%;
+            height: 110px;
+            border: 2px solid black;
+            text-align: center;
+            background-color: rgb(109, 134, 168);
+        }
+        img{
+            width: 100%;
+            height: 105px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Display : Flex In CSS</h1>
+    <div class="Container">
+        <div class="box1">
+            <div class="b1row1">Display flex</div>
+            <div class="b1row2">Lorem ipsum dolor sit amet.</div>
+        </div>
+        <div class="box2">
+            <div class="b2row1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae dicta sit quaerat aliquam aspernatur </div>
+            <div class="b2row2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eum tenetur beatae, accusamus,</div>
+        </div>
+        <div class="box3">
+            <div class="b3row1">
+                <img src="../../Module-1-HTML/Images/BackBay_skyline new.jpg" alt="">
+            </div>
+            <div class="b3row2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem </div>
+            <div class="b3row3"><img src="../../Module-1-HTML/Images/tree-736885_640.jpg" alt=""></div>
+            <div class="b3row4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui quos omnis</div>                    
+        </div>    
+    </div>
+</body>
+</html>

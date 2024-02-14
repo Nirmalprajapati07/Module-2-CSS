@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 .container{
+    left: 30%;
+    position: relative;
     min-height: 100vh;
     display: flex;
     justify-items: center;
@@ -16,16 +18,6 @@
 }
 .gallery{
     flex-basis: 50%;
-}
-.haeding{
-    font-size: 3rem;
-    color: white;
-    text-align: center;
-}
-.subheading{
-    color: black;
-    margin-top: 18px;
-    text-align: center;
 }
 .gallery{
     flex-basis: 50%;
@@ -41,18 +33,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#222 ;
     background-blend-mode: multiply;
     transition: all is ease-in-out;
     cursor: pointer;
 }
-.box:hover{
-    background-color:#999 ;
-    background-position: center;
-    box-shadow: 0 0 4px #fff;
-}
 .row-2{
-    grid-column: span 2;
+    grid-column: span 3;
 }
 .col-2{
     grid-column: span 2;
